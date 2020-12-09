@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.30717.126
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQSync", "RabbitMQSync\RabbitMQSync.csproj", "{258DCF8E-D804-440A-A605-4AB6127FF2CB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SyncService", "SyncService\SyncService.csproj", "{5BF64211-5807-43D3-A4DF-BE2B5870C0DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "Shared\Shared.csproj", "{50F97BE7-8CD8-4715-B1F1-52719A8D6C91}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{258DCF8E-D804-440A-A605-4AB6127FF2CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{258DCF8E-D804-440A-A605-4AB6127FF2CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{258DCF8E-D804-440A-A605-4AB6127FF2CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BF64211-5807-43D3-A4DF-BE2B5870C0DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BF64211-5807-43D3-A4DF-BE2B5870C0DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BF64211-5807-43D3-A4DF-BE2B5870C0DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BF64211-5807-43D3-A4DF-BE2B5870C0DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50F97BE7-8CD8-4715-B1F1-52719A8D6C91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50F97BE7-8CD8-4715-B1F1-52719A8D6C91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50F97BE7-8CD8-4715-B1F1-52719A8D6C91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50F97BE7-8CD8-4715-B1F1-52719A8D6C91}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

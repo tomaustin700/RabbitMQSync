@@ -9,7 +9,7 @@ namespace RabbitMQSync.Classes
     {
         public int ListenerCount { get; set; } = 2;
         public string TerminationId { get; set; }
-        public IConnectionFactory ConnectionFactory { get; private set; } = new ConnectionFactory() { HostName = "172.16.69.80" };
+        public IConnectionFactory ConnectionFactory { get; private set; } = new ConnectionFactory() { HostName = "127.0.01" };
         public string SyncId { get; set; }
 
         public SynchronisationOptions()

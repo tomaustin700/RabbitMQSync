@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading;
+using Shared.Classes;
 
 namespace RabbitMQSync.Classes
 {
@@ -102,6 +103,7 @@ namespace RabbitMQSync.Classes
                 consumer.Received += (model, ea) =>
                 {
                     ready = true;
+                   
                 };
 
                 channelRec.BasicConsume(queue: machineGuid,

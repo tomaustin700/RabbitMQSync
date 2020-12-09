@@ -7,10 +7,18 @@ namespace RabbitMQSync
     {
         static void Main(string[] args)
         {
-            SynchronisationHandler.Handle(new SynchronisationBase(), () =>
+            var baseS = new SynchronisationBase();
+
+            SynchronisationHandler.Handle(baseS, () =>
                 {
+                    Console.WriteLine("Sync'd");
+                    baseS.WaitForSync();
+                    Console.WriteLine("Hello World");
+
 
                 });
+
+            Console.ReadKey();
         }
     }
 }
